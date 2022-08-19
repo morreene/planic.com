@@ -7,9 +7,9 @@
    id="svg8"
    sodipodi:docname="logo-planic-1.svg"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
-   inkscape:export-filename="D:\Project Hugo\vex-hugo-generative\static\images\logo.png"
-   inkscape:export-xdpi="85.602539"
-   inkscape:export-ydpi="85.602539"
+   inkscape:export-filename="D:\Project Hugo\planic.com\static\images\logo.png"
+   inkscape:export-xdpi="75.172516"
+   inkscape:export-ydpi="75.172516"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.8056px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT';stroke-width:0.40353" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Anaheim;-inkscape-font-specification:Anaheim;letter-spacing:1.27px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;line-height:1.25;font-family:Anaheim;-inkscape-font-specification:Anaheim;letter-spacing:1.11125px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="0.26458329"
        y="33.526493"
        id="text22263"
@@ -82,7 +82,7 @@
        inkscape:export-ydpi="85.602539"><tspan
          sodipodi:role="line"
          id="tspan22261"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Anaheim;-inkscape-font-specification:Anaheim;fill:#4d4d4d;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:Anaheim;-inkscape-font-specification:Anaheim;fill:#333333;stroke-width:0.264583"
          x="0.26458329"
          y="33.526493">Generate art as planned</tspan></text>
     <text
@@ -93,7 +93,7 @@
        id="text77546"><tspan
          sodipodi:role="line"
          id="tspan77544"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT';fill:#4d4d4d;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT';fill:#333333;stroke-width:0.264583"
          x="-0.5291667"
          y="26.155954">PLANIC</tspan></text>
   </g>
