@@ -1,0 +1,246 @@
+################################### Default Configuration ############################
+baseurl = "https://planic.com/"
+title = "Planic - generate art as planned"
+# theme = "vex-hugo"
+theme = "generative"
+
+# post excert
+summarylength = "20"
+# google analytics
+googleAnalytics = "UA-62289743-9" # Ex: UA-123-45
+# disable language
+disableLanguages = ["cn"] # disable language from here
+
+#################################### Plugins ##########################################
+
+# CSS Plugins
+[[params.plugins.css]]
+# link = "https://fonts.googleapis.com/css?family=Droid+Serif:400|Josefin+Sans:300,400,600,700"
+# link = "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap"
+# link = "https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+# link = "https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+# link = "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap"
+# link = "https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+
+link = "https://fonts.googleapis.com/css2?family=Anaheim&display=swap"
+
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themefisher-font/themefisher-font.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.min.css"
+[[params.plugins.css]]
+link = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.css"
+# [[params.plugins.css]]
+# link = "my.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.js"
+
+###################################### Navigation ######################################
+defaultContentLanguage = "en"
+
+# [languages.en]
+# weight = 0
+# languageName = "English"
+
+[languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+# copyright
+# copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Copyright 2022 planic.com"
+
+# homepage section menu
+# [[languages.en.menu.main]]
+# name = "Home"
+# URL = "/"
+# weight = 1
+
+[[languages.en.menu.main]]
+name = "Portfolio"
+# identifier = "products"
+URL = "portfolio"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "Articles"
+URL = "blog"
+weight = 2
+
+[[languages.en.menu.main]]
+name = "About"
+URL = "about"
+weight = 3
+
+###############################################################################
+##########                   Shop disabled                      ###############
+###############################################################################
+
+# [[languages.en.menu.main]]
+# name = "Shop"
+# # identifier = "products"
+# URL = "products"
+# weight = 7
+
+# [[languages.en.menu.main]]
+# name = "Review"
+# pre = "#"
+# URL = "testimonial"
+# weight = 4
+
+# [[languages.en.menu.main]]
+# name = "Contact"
+# URL = "contact"
+# weight = 5
+
+# footer menu
+[[languages.en.menu.footer]]
+name = "Portfolio"
+URL = "portfolio"
+weight = 1
+
+[[languages.en.menu.footer]]
+name = "Articles"
+URL = "blog"
+weight = 2
+
+
+[[languages.en.menu.footer]]
+name = "About"
+URL = "about"
+weight = 3
+
+# [[languages.en.menu.footer]]
+# name = "Contact"
+# URL = "contact"
+# weight = 2
+
+# [[languages.en.menu.footer]]
+# name = "Terms & Conditions"
+# URL = "terms-conditions"
+# weight = 3
+#
+# [[languages.en.menu.footer]]
+# name = "Privacy Policy"
+# URL = "privacy-policy"
+# weight = 4
+
+# ###################################### Navigation ######################################
+[languages.cn]
+languageName = "中文"
+languageCode = "cn-cn"
+contentDir = "content/chinese"
+weight = 2
+# copyright
+copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+
+# [languages.cn]
+# weight = 10
+# languageName = "Chinese"
+# homepage section menu
+[[languages.cn.menu.main]]
+name = "主页"
+URL = "/"
+weight = 1
+
+[[languages.cn.menu.main]]
+name = "文章"
+URL = "blog"
+weight = 2
+
+[[languages.cn.menu.main]]
+name = "购买"
+URL = "products"
+weight = 3
+
+# [[languages.cn.menu.main]]
+# name = "评论"
+# pre = "#"
+# URL = "testimonial"
+# weight = 4
+
+# [[languages.cn.menu.main]]
+# name = "联络"
+# URL = "contact"
+# weight = 5
+
+[[languages.cn.menu.main]]
+name = "关于"
+URL = "about"
+weight = 6
+
+
+# footer menu
+[[languages.cn.menu.footer]]
+name = "Blog"
+URL = "blog"
+weight = 1
+
+[[languages.cn.menu.footer]]
+name = "Contact"
+URL = "contact"
+weight = 2
+
+[[languages.cn.menu.footer]]
+name = "Terms & Conditions"
+URL = "terms-conditions"
+weight = 3
+
+[[languages.cn.menu.footer]]
+name = "Privacy Policy"
+URL = "privacy-policy"
+weight = 4
+
+########################### Default parameters ##########################
+[params]
+logo = "images/logo.png"
+logo_width = "200px"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# currency
+currency = "$"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# snipcart public api key
+snipcart_api = "NDA2NGY2YTEtYzNlZS00Mzk5LTg3MjktYTIzMzVjZjk0ZjkxNjM3MzgzMjg4ODI5NjcwODUx"
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
+
+# Subscription
+[params.subscription]
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+
+################################### English language #####################################
+# [Languages.en]
+# languageName = "En"
+# languageCode = "en-us"
+# contentDir = "content/english"
+# weight = 1
+# # copyright
+# copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+
+# ################################### French language #####################################
+# [Languages.fr]
+# languageName = "Fr"
+# languageCode = "fr-fr"
+# contentDir = "content/french"
+# weight = 2
+# # copyright
+# copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
